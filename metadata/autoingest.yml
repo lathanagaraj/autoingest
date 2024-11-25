@@ -1,0 +1,195 @@
+- tool: 7zip
+  release:
+    type: github
+    repository: ip7z/7zip
+    checksum:
+- tool: awscli2
+  release:
+    type: custom
+
+- tool: bruno
+  release:
+    type: github
+    repository: usebruno/bruno
+    checksum:
+- tool: clink
+  release:
+    type: github
+    repository: chrisant996/clink
+    checksum:
+- tool: dbeaver
+  release:
+    type: github
+    repository: dbeaver/dbeaver
+    checksum:
+- tool: dive
+  release:
+    type: github
+    repository: wagoodman/dive
+    checksum:
+- tool: dockerdesktop
+  release:
+    type: dropbox
+    repository: docker/for-win
+    checksum:
+- tool: dotnet6
+  release:
+    type: custom
+    repository: https://dotnet.microsoft.com/en-us/download/visual-studio-sdks
+    checksum:
+- tool: dotnet8
+  release:
+    type: custom
+    repository: https://dotnet.microsoft.com/en-us/download/visual-studio-sdks
+    checksum:
+- tool: drawio
+  release:
+    type: github
+    repository: jgraph/drawio-desktop
+    checksum:
+- tool: etl2capng
+  release:
+    type: github
+    repository: microsoft/etl2pcapng
+    checksum:
+- tool: ffmpeg
+  release:
+    type: github
+    repository: BtbN/FFmpeg-Builds
+    checksum:
+- tool: gitlab-cli
+  release:
+    type: github
+    repository: gitlab-org/cli
+    checksum:
+- tool: gitlab-release-cli
+  release:
+    type: github
+    repository: gitlab-org/release-cli
+    checksum:
+# check why dropbox and not download from github
+- tool: gitwin
+  release:
+    type: github
+    repository: git-for-windows/git
+    checksum:
+- tool: go121
+  release:
+    type: custom
+    repository: https://golang.org/dl/
+    checksum:
+- tool: go122
+  release:
+    type: custom
+    repository: https://golang.org/dl/
+    checksum:
+- tool: go123
+  release:
+    type: custom
+    repository: https://golang.org/dl/
+    checksum:
+# check why not getting from github
+- tool: helm
+  release:
+    type: github
+    repository: helm/helm
+    checksum: release-page
+# check why dropbox and not getting from gitlab
+- tool: inkscape
+  release:
+      type: gitlab
+      repository: inkscape/inkscape
+      checksum:
+- tool: intelliju2023
+  release:
+    type: custom
+    repository: https://www.jetbrains.com/idea/download/
+    checksum:
+- tool: intelliju2024
+  release:
+      type: custom
+      repository: https://www.jetbrains.com/idea/download/
+      checksum: dynamic
+- tool: jq
+  release:
+    type: github
+    repository: jqlang/jq
+    checksum:
+- tool: kubectl
+  release:
+    type: custom
+    repository: https://kubernetes.io/releases/download/
+    checksum:
+# currently got from dropbox
+- tool: make-win
+  release:
+    type: custom
+    repository: https://gnuwin32.sourceforge.net/packages/make.htm
+    checksum:
+# why not getting from github but apache.org
+- tool: maven
+  release:
+    type: github
+    repository: apache/maven
+    checksum:
+- tool: miniconda
+  release:
+      type: custom
+      repository: https://docs.anaconda.com/miniconda/release-notes/
+      checksum:
+- tool: node16
+  release:
+    type: custom
+    repository: https://nodejs.org/en/download/
+    checksum:
+- tool: node18
+  release:
+      type: custom
+      repository: https://nodejs.org/en/download/
+      checksum:
+- tool: node20
+  release:
+    type: custom
+    repository: https://nodejs.org/en/download/
+    checksum:
+- tool: node22
+  release:
+    type: custom
+    repository: https://nodejs.org/en/download/
+    checksum:
+- tool: notepadplusplus
+  release:
+    type: github
+    repository: notepad-plus-plus/notepad-plus-plus
+    checksum: dynamic
+- tool: openshift
+  release:
+    type: custom
+    repository: https://mirror.openshift.com/pub/openshift-v4/clients/ocp/
+    checksum:
+- tool: oraclejdk8
+  release:
+    type: custom
+    repository: https://www.oracle.com/java/technologies/javase-jdk8-downloads.html
+    checksum:
+- tool: oraclejdk11
+  release:
+      type: custom
+      repository: https://www.oracle.com/java/technologies/javase-jdk11-downloads.html
+      checksum:
+- tool: oraclejdk17
+  release:
+    type: custom
+    repository: https://www.oracle.com/java/technologies/javase-jdk17-downloads.html
+    checksum:
+- tool: oraclejdk21
+  release:
+    type: custom
+    repository: https://www.oracle.com/java/technologies/javase-jdk18-downloads.html
+    checksum:
+- tool: putty
+  release:
+    type: github
+    repository: FauxFaux/putty
+    checksum:
+
